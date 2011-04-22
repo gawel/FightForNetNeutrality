@@ -6,8 +6,7 @@ version = '0.1'
 setup(name='FightForNetNeutrality',
       version=version,
       description="This package is a WSGI middleware which allow to block some IP Address. By default the french parlement is denied.",
-      long_description="""\
-""",
+      long_description=open('README.txt').read(),
       classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
       keywords='net neutrality wsgi',
       author='Gael Pasgrimaud',
